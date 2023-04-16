@@ -7,8 +7,7 @@ public class EnemyZ : MonoBehaviour
 
     public float speed = 1f;
     public float leftAndRightEdge = 10f;
-    public Animator anim;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -29,16 +28,6 @@ public class EnemyZ : MonoBehaviour
         else if (pos.z > leftAndRightEdge)
         {
             speed = -Mathf.Abs(speed);
-        }
-
-
-        if (pos.magnitude == 0f)
-        {
-            anim.SetBool("isRunning", false);
-        }
-        else
-        {
-            anim.SetBool("isRunning", true);
         }
     }
 }

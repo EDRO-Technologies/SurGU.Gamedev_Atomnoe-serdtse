@@ -10,6 +10,8 @@ public class ThirdPersonController : MonoBehaviour
     public float speed = 6f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
+    Vector3 velocity;
+    public float gravity = -0.81f;
 
     // Update is called once per frame
     void Update()
@@ -33,6 +35,10 @@ public class ThirdPersonController : MonoBehaviour
         else{
             anim.SetBool("isRunning", true);
         }
+
+        velocity.y += gravity * Time.deltaTime;
+
+        controller.Move(velocity * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -47,5 +53,4 @@ public class ThirdPersonController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
-
 }
