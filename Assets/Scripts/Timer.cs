@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
@@ -12,12 +13,14 @@ public class Timer : MonoBehaviour
     void Start()
     {
         timerText.text = timeStart.ToString();
+        timeStart = PlayerPrefs.GetFloat("Time");
     }
 
     // Update is called once per frame
     void Update()
     {
-        timeStart += Time.deltaTime;
+        float time = timeStart += Time.deltaTime;
         timerText.text = Mathf.Round(timeStart).ToString();
+        PlayerPrefs.SetFloat("Time", timeStart);
     }
 }
