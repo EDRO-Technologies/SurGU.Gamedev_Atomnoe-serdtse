@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8115 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16341 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Ольга/Documents/GitHub/SurGU.Gamedev_Atomnoe-serdtse
+D:/KMD/Git Asset/SurGU.Gamedev_Atomnoe-serdtse
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50975
-Successfully changed project path to: C:/Users/Ольга/Documents/GitHub/SurGU.Gamedev_Atomnoe-serdtse
-C:/Users/Ольга/Documents/GitHub/SurGU.Gamedev_Atomnoe-serdtse
+61610
+Successfully changed project path to: D:/KMD/Git Asset/SurGU.Gamedev_Atomnoe-serdtse
+D:/KMD/Git Asset/SurGU.Gamedev_Atomnoe-serdtse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,114 +47,108 @@ C:/Users/Ольга/Documents/GitHub/SurGU.Gamedev_Atomnoe-serdtse
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 502.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 131.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.7f1 (24e8595d6d43)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Ольга/Documents/GitHub/SurGU.Gamedev_Atomnoe-serdtse/Assets
+[Subsystems] Discovering subsystems at path D:/KMD/Git Asset/SurGU.Gamedev_Atomnoe-serdtse/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   NVIDIA
-    VRAM:     2008 MB
-    Driver:   31.0.15.2756
+    VRAM:     4017 MB
+    Driver:   31.0.15.3161
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.029048 seconds.
+Registered in 0.010448 seconds.
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 437.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 119.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.711 seconds
+- Completed reload, in  0.799 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3714ms)
-		BeginReloadAssembly (294ms)
+	ReloadAssembly (799ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (2932ms)
-			LoadAssemblies (284ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (581ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (515ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (163ms)
-			SetupLoadedEditorAssemblies (2012ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (427ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (437ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (806ms)
-				ProcessInitializeOnLoadMethodAttributes (337ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.059222 seconds.
+Registered in 0.005923 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ольга\Documents\GitHub\SurGU.Gamedev_Atomnoe-serdtse\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ольга\Documents\GitHub\SurGU.Gamedev_Atomnoe-serdtse\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\KMD\Git Asset\SurGU.Gamedev_Atomnoe-serdtse\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\KMD\Git Asset\SurGU.Gamedev_Atomnoe-serdtse\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 407.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.982 seconds
+- Completed reload, in  1.571 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5984ms)
-		BeginReloadAssembly (624ms)
+	ReloadAssembly (1572ms)
+		BeginReloadAssembly (247ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (206ms)
-		EndReloadAssembly (4889ms)
-			LoadAssemblies (470ms)
+			CreateAndSetChildDomain (131ms)
+		EndReloadAssembly (1178ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1362ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (214ms)
-			SetupLoadedEditorAssemblies (2678ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (636ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (218ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (407ms)
-				BeforeProcessingInitializeOnLoad (423ms)
-				ProcessInitializeOnLoadAttributes (1062ms)
-				ProcessInitializeOnLoadMethodAttributes (520ms)
-				AfterProcessingInitializeOnLoad (47ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (137ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
-Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5036 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5491.
-Memory consumption went from 197.3 MB to 196.6 MB.
-Total: 17.141600 ms (FindLiveObjects: 1.282500 ms CreateObjectMapping: 1.110700 ms MarkObjects: 13.845400 ms  DeleteObjects: 0.900100 ms)
+Unloading 5037 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5493.
+Memory consumption went from 197.3 MB to 196.7 MB.
+Total: 5.780000 ms (FindLiveObjects: 0.606000 ms CreateObjectMapping: 0.483700 ms MarkObjects: 4.254500 ms  DeleteObjects: 0.434500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,28 +162,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2284.394077 seconds.
-  path: Assets/spokoinaya-fonovaia-muzyka-yotub.mp3
-  artifactKey: Guid(5ba890ca75602cc4d8b44a05eb74bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/spokoinaya-fonovaia-muzyka-yotub.mp3 using Guid(5ba890ca75602cc4d8b44a05eb74bb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbef3fdbb525df9f381b8fd3552dde1c') in 0.595593 seconds 
+  Time since last request: 7452.731629 seconds.
+  path: Assets/Demarin/Animations/Demarin_Idle.fbx
+  artifactKey: Guid(d8d380d66a303a54c8f0f46c5b0a556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Demarin/Animations/Demarin_Idle.fbx using Guid(d8d380d66a303a54c8f0f46c5b0a556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d63d425911c3212d1922b13039d3941') in 0.800346 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010420 seconds.
-  path: Assets/I_Love_My_Mom.mp3
-  artifactKey: Guid(b489b743d633f984abd4991c5c621767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/I_Love_My_Mom.mp3 using Guid(b489b743d633f984abd4991c5c621767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6349694d7cb6b88141f8f21e45011d') in 0.078650 seconds 
+  Time since last request: 0.000044 seconds.
+  path: Assets/Demarin/Animations/Demarin_Rifle_Fire.fbx
+  artifactKey: Guid(4f657e0e5d1a5684baeebd4cc6731694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Demarin/Animations/Demarin_Rifle_Fire.fbx using Guid(4f657e0e5d1a5684baeebd4cc6731694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74ec5c98edccbc7816f660157a51bc6') in 0.363724 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.033887 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8df6bccfaeea7c160e2ca3bda91111') in 0.018061 seconds 
+  Time since last request: 0.000056 seconds.
+  path: Assets/Demarin/Animations/Demarin_Rifle_Hold.fbx
+  artifactKey: Guid(5fb33f76874e7d54a8fef95ec43b39c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Demarin/Animations/Demarin_Rifle_Hold.fbx using Guid(5fb33f76874e7d54a8fef95ec43b39c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25937eb4e3631195dad6fa444d922f86') in 0.276071 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/prostoy-awx.ttf
-  artifactKey: Guid(bc8fa8688004fe544a0b18af5db787c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prostoy-awx.ttf using Guid(bc8fa8688004fe544a0b18af5db787c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab26dc68f981f686497d8670011d4083') in 0.894143 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/Demarin/Animations/Demarin_Walk.fbx
+  artifactKey: Guid(da0817eebed21134bb085d16398c822a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Demarin/Animations/Demarin_Walk.fbx using Guid(da0817eebed21134bb085d16398c822a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b04e56fe5b6a4dfc9ea5b6ee36cf2e') in 0.281474 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
