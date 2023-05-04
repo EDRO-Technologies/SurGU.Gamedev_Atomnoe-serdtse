@@ -17,10 +17,12 @@ public class Activator : MonoBehaviour
                 first.GetComponent<Renderer>().material = normal;
                 first.GetComponent<Collider>().isTrigger = false;
             }
-            foreach(GameObject second in secondGroup){
+            foreach (GameObject second in secondGroup)
+            {
                 second.GetComponent<Renderer>().material = transparent;
                 second.GetComponent<Collider>().isTrigger = true;
             }
+
             GetComponent<Renderer>().material = transparent;
             button.GetComponent<Renderer>().material = normal;
         }

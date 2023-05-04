@@ -6,8 +6,9 @@ public class EnemyZ : MonoBehaviour
 {
 
     public float speed = 1f;
-    public float leftAndRightEdge = 10f;
-    
+    public float leftEdge = 10f;
+    public float rightEdge = 10f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +22,11 @@ public class EnemyZ : MonoBehaviour
         pos.z += speed * Time.deltaTime;
         transform.position = pos;
 
-        if (pos.z < -leftAndRightEdge)
+        if (pos.z < -rightEdge)
         {
             speed = Mathf.Abs(speed);
         }
-        else if (pos.z > leftAndRightEdge)
+        else if (pos.z > leftEdge)
         {
             speed = -Mathf.Abs(speed);
         }
