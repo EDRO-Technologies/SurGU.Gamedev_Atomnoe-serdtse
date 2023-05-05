@@ -29,6 +29,7 @@ public class Manager : MonoBehaviour
     {
         SceneManager.LoadScene("Level 3");
     }
+    // Я Павел Петрович Савченко, обзясуюсь сократить код не ниже 32 строчки
 
     public void OpenScene_4()
     {
